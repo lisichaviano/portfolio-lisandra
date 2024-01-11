@@ -1,7 +1,8 @@
-import type { NextPage } from "next";
+"use client";
+
 import { useEffect } from "react";
 
-const Screen1: NextPage = () => {
+export default function HomePage() {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -41,67 +42,8 @@ const Screen1: NextPage = () => {
           <div className="absolute top-[0px] left-[0px] bg-white w-[1425px] h-[1072px] mix-blend-normal" />
         </div>
         <div className="absolute top-[0px] left-[0px] w-[1425px] h-[1072px] flex flex-col items-start justify-start mix-blend-normal">
-          <div className="w-[1425px] h-[92px] flex flex-row items-start justify-start mix-blend-normal">
-            <div className="relative bg-white w-[1425px] h-[92px] mix-blend-normal" />
-            <div className="relative w-[1425px] h-[92px] mix-blend-normal ml-[-1425px]">
-              <div className="absolute top-[0px] left-[222.5px] bg-white w-[980px] h-[92px] mix-blend-normal" />
-              <div className="absolute top-[0px] left-[0px] w-[1425px] h-[92px] mix-blend-normal">
-                <div className="absolute top-[0px] left-[935px] w-[450px] h-[58px] overflow-hidden">
-                  <div className="absolute top-[23px] left-[0px] w-[450px] h-[35px] flex flex-row items-start justify-start py-0 pr-[844px] pl-[49px] box-border mix-blend-normal">
-                    <div className="relative w-24 h-[35px] mix-blend-normal">
-                      <div className="absolute top-[9px] left-[12px] leading-[35px]">
-                        ABOUT ME
-                      </div>
-                    </div>
-                    <div className="relative w-28 h-[35px] mix-blend-normal">
-                      <div className="absolute top-[9px] left-[12px] leading-[35px]">
-                        CURRICULUM
-                      </div>
-                    </div>
-                    <div className="relative w-[102px] h-[35px] mix-blend-normal">
-                      <div className="absolute top-[9px] left-[12.1px] leading-[35px]">
-                        PORTFOLIO
-                      </div>
-                    </div>
-                    <div className="relative w-[91px] h-[35px] mix-blend-normal">
-                      <div className="absolute top-[9px] left-[12px] leading-[35px]">
-                        CONTACT
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute top-[0px] left-[0px] w-[712.5px] h-[92px] mix-blend-normal text-base-1">
-                  <div className="absolute top-[18.2px] left-[391px] w-[99px] h-[55.6px] overflow-hidden">
-                    <div className="absolute top-[14.8px] left-[0px] w-[99px] h-[40.8px] flex flex-col items-start justify-start pt-0 pb-[62.599998474121094px] pr-[18.375px] pl-0 box-border mix-blend-normal">
-                      <div className="relative tracking-[0.34px] leading-[20.4px]">
-                        Software
-                      </div>
-                      <div className="relative tracking-[0.34px] leading-[20.4px] mt-[-0.01px]">
-                        Developer
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-[30px] left-[48px] w-[324px] h-8 overflow-hidden text-6xl font-syne">
-                    <div className="absolute top-[8px] left-[0px] bg-firebrick w-4 h-4 overflow-hidden mix-blend-normal" />
-                    <div className="absolute top-[0px] left-[31px] w-[263px] h-8 overflow-hidden">
-                      <div className="absolute top-[0px] left-[0px] w-[263px] h-[30px] mix-blend-normal">
-                        <b className="absolute top-[2.5px] left-[0px] leading-[25px]">
-                          Lisandra'sPortfolio
-                        </b>
-                      </div>
-                    </div>
-                    <img
-                      className="absolute top-[9px] left-[318px] w-1.5 h-3.5 overflow-hidden mix-blend-normal"
-                      alt=""
-                      src="/icon.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="relative w-[1425px] h-[832px] mix-blend-normal text-mid">
-            <div className="absolute top-[-126px] left-[0px] w-[1425px] h-[958px] mix-blend-normal">
+            <div className="absolute top-[-126px] left-[0px] w-[1425px] mix-blend-normal">
               <div className="absolute top-[0px] left-[0px] w-[571.5px] h-[952px] overflow-hidden mix-blend-normal">
                 <div className="absolute top-[150px] left-[0px] bg-thistle w-[571px] h-[802px] mix-blend-normal" />
               </div>
@@ -237,6 +179,4 @@ const Screen1: NextPage = () => {
       </div>
     </main>
   );
-};
-
-export default Screen1;
+}
