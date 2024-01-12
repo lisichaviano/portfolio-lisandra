@@ -11,6 +11,17 @@ module.exports = {
         gray: "rgba(255, 255, 255, 0)",
         thistle: "#ffd1ea",
       },
+      screens: {
+        // The values are "min-width", so they are the starting widths from which the style will activate
+        sm: "600px",
+        md: "905px",
+        lg: "1240px",
+        xl: "1440px",
+      },
+      width: {
+        "xl-content": "1120px",
+        "2xl-content": "1440px",
+      },
       spacing: {},
       fontFamily: {
         questrial: "Questrial",
@@ -22,14 +33,16 @@ module.exports = {
       },
     },
     fontSize: {
-      sm: "14px",
-      "sm-2": "13.2px",
-      "8xl": "27px",
-      mid: "17px",
-      "6xl": "25px",
-      "sm-9": "13.9px",
-      "base-1": "16.1px",
-      inherit: "inherit",
+      xs: ["12px"],
+      sm: ["14px"],
+      base: ["16px"],
+      lg: ["18px"],
+      xl: ["20px"],
+      "2xl": ["24px"],
+      "3xl": ["30px"],
+      "4xl": ["36px"],
+      "5xl": ["48px"],
+      "6xl": ["64px"],
     },
   },
   corePlugins: {
