@@ -14,11 +14,11 @@ const LinkElement = ({
   ...props
 }: LinkProps) => {
   return (
-    <div className={`text-sm   ${additionalClassNAme}`}>
+    <div className="">
       <Link
         href={href}
         {...props}
-        className="no-underline text-black hover:text-firebrick active:text-firebrick"
+        className={`no-underline text-black hover:text-firebrick  active:text-firebrick ${additionalClassNAme}`}
       >
         {children}
       </Link>
