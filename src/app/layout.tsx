@@ -2,6 +2,7 @@ import { PropsWithChildren } from "react";
 import "./global.css";
 import { Metadata } from "next";
 import { Header } from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "my-portfolio",
@@ -11,10 +12,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren<{}>) {
   return (
-    <html>
-      <body>
+    <html lang="en">
+      <body className="flex min-h-screen flex-col m-0">
         <Header />
-        <div id="root">{children}</div>
+        <main className="">{children}</main>
+        <Footer />
       </body>
     </html>
   );
