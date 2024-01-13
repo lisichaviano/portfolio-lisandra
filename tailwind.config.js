@@ -1,6 +1,27 @@
+const NAV_HEIGHT = "92px";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  plugins: [require("daisyui")],
+  daisyui: {
+    // themes: ["light"],
+    themes: [
+      {
+        mytheme: {
+          primary: "#DE3935",
+          secondary: "#8BAEC2",
+          accent: "#1dcdbc",
+          neutral: "#2b3440",
+          "base-100": "#ffffff",
+          info: "#3abff8",
+          success: "#36d399",
+          warning: "#fbbd23",
+          error: "#f87272",
+        },
+      },
+    ],
+  },
   theme: {
     extend: {
       colors: {
@@ -18,11 +39,15 @@ module.exports = {
         lg: "1240px",
         xl: "1440px",
       },
+
       width: {
         "xl-content": "1120px",
         "2xl-content": "1440px",
       },
-      spacing: {},
+      spacing: {
+        navbar: NAV_HEIGHT,
+        content: `calc(100vh - ${NAV_HEIGHT})`,
+      },
       fontFamily: {
         questrial: "Questrial",
         inter: "Inter",
