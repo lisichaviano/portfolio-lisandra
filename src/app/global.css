@@ -1,25 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial:wght@400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  @apply leading-[normal] m-0;
-}
-*,
-::before,
-::after {
-  border-width: 0;
+
+@layer base {
+  html {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
 }
 
-@keyframes slide-in-left {
-  0% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
+@layer components {
+  .responsive-width {
+    @apply px-12 py-8 sm:px-32 sm:py-12 md:px-40 md:py-16 lg:px-60 lg:py-36 xl:px-80 2xl:px-[400px];
   }
 }
