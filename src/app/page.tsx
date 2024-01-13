@@ -3,13 +3,13 @@ import SocialMedia from "../components/SocialMedia";
 
 export default function HomePage() {
   return (
-    <div className="bg-white max-w-full min-h-screen flex overflow-y-auto overscroll-y-contain">
+    <div className="bg-white min-h-screen flex max-md:flex-col gap-8">
       <div className="flex">
-        <div className="relative min-w-[300px] md:min-w-[400px] lg:min-w-[571px]">
-          <div className="relative left-[0px] bg-thistle w-full h-screen" />
+        <div className="relative max-md:absolute top-0 left-0 max-md:w-full md:min-w-[400px] lg:min-w-[571px] -mr-[300px]">
+          <div className="relative left-0 bg-thistle w-full min-h-screen" />
         </div>
-        <div className="absolute left-[0px] flex justify-center">
-          <div className="relative top-[80px] left-[20px] md:left-[161.5px] lg:left-[261.5px] bg-linen min-w-[375px] shadow-[-11.3px_11.3px_17px_rgba(138,_131,_124,_0.23)] h-[562px] overflow-hidden shrink-0">
+        <div className="flex justify-center max-md:bg-thistle max-md:p-6 max-md:w-full">
+          <div className="md:relative z-10 top-[80px] w-full bg-linen md:w-[375px] shadow-[-11.3px_11.3px_17px_rgba(138,_131,_124,_0.23)] h-[562px] overflow-hidden shrink-0">
             <div className="flex flex-col my-10 items-center">
               <div className="h-48 w-48 rounded-full bg-transparent">
                 <img
@@ -36,33 +36,35 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="absolute top-[150px] left-[420px] md:left-[570px] lg:left-[670px] flex flex-grow z-10 flex-col py-7 sm:w-70 lg:w-96 pr-6">
-        <div className="flex">
-          <span className="font-syne text-6xl">HELLO</span>
-        </div>
-        <div className="flex flex-wrap mt-5">
-          <span className="font-syne text-2xl">
-            I am a Software Developer specialising in front-end, and I care for
-            creating efficient and clean solutions for customers.
-          </span>
-        </div>
-        <div className="flex flex-wrap mt-10 gap-x-12 gap-y-4">
-          <button className="font-questrial hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4">
-            PORTFOLIO
-          </button>
-          <button className="font-questrial hover:bg-firebrick hover:text-white hover:border-transparent font-bold text-black bg-white border-2 border-black hover:cursor-pointer rounded-full py-2 px-4">
-            CONTACT ME
-          </button>
-        </div>
+      <div className="flex">
+        <div className="relative max-md:top-[40px] top-[80px] flex flex-grow z-10 flex-col py-7 sm:w-70 lg:w-96 pr-6 max-md:p-6">
+          <div className="flex">
+            <span className="font-syne max-md:text-3xl text-6xl">HELLO</span>
+          </div>
+          <div className="flex flex-wrap mt-5">
+            <span className="font-syne max-md:text-xl text-2xl">
+              I am a Software Developer specialising in front-end, and I care
+              for creating efficient and clean solutions for customers.
+            </span>
+          </div>
+          <div className="flex max-md:justify-center flex-wrap mt-10 gap-x-12 gap-y-4">
+            <button className="font-questrial hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4">
+              PORTFOLIO
+            </button>
+            <button className="font-questrial hover:bg-firebrick hover:text-white hover:border-transparent font-bold text-black bg-white border-2 border-black hover:cursor-pointer rounded-full py-2 px-4">
+              CONTACT ME
+            </button>
+          </div>
 
-        <div className="flex flex-wrap mt-10">
-          <p className="font-questrial text-mid mt-0 leading-[25.5px]">
-            As a Frontend Developer I care for building intuitive user
-            interfaces. I deliver efficient web applications by following best
-            practices and industry standards, paying attention to detail, and
-            ensuring code quality. I focus on smooth and clear coordination to
-            define requirements and meet customers' needs.
-          </p>
+          <div className="flex flex-wrap my-10">
+            <p className="font-questrial text-md mt-0 leading-[25.5px]">
+              As a Frontend Developer I care for building intuitive user
+              interfaces. I deliver efficient web applications by following best
+              practices and industry standards, paying attention to detail, and
+              ensuring code quality. I focus on smooth and clear coordination to
+              define requirements and meet customers' needs.
+            </p>
+          </div>
         </div>
       </div>
     </div>

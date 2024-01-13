@@ -18,7 +18,7 @@ const LinkElement = ({
       <Link
         href={href}
         {...props}
-        className={`no-underline text-black hover:text-firebrick  active:text-firebrick ${additionalClassNAme}`}
+        className={`no-underline text-black hover:text-firebrick active:text-firebrick ${additionalClassNAme}`}
       >
         {children}
       </Link>

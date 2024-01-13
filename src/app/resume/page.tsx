@@ -129,19 +129,21 @@ export default function ResumePage() {
   };
 
   return (
-    <div className="flex flex-col responsive-width justify-center items-center bg-thistle">
-      <div className="flex gap-3 items-center">
-        <div className="bg-firebrick w-5 h-5 overflow-hidden" />
-        <h1 className="font-syne text-4xl">RESUME</h1>
-      </div>
-      <div className="flex justify-between w-full items-center mb-8">
-        <p className="text-3xl font-syne">Experience</p>
-        <button
-          onClick={onButtonClick}
-          className="text-base font-questrial hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4"
-        >
-          DOWNLOAD CV
-        </button>
+    <div className="flex flex-col responsive-width justify-center bg-thistle">
+      <div className="flex flex-wrap">
+        <div className="flex gap-2 md:gap-3 items-center">
+          <div className="bg-firebrick w-3 h-3 md:w-5 md:h-5 overflow-hidden" />
+          <p className="font-syne text-xl md:text-4xl">RESUME</p>
+        </div>
+        <div className="flex justify-between flex-wrap w-full items-center max-md:mt-8 mb-2 md:mb-8">
+          <p className="text-xl md:text-3xl font-syne">Experience</p>
+          <button
+            onClick={onButtonClick}
+            className="text-xs whitespace-nowrap md:text-base font-questrial hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4"
+          >
+            DOWNLOAD CV
+          </button>
+        </div>
       </div>
       <div className="flex flex-col gap-12">
         {resume.map((job) => (
@@ -154,7 +156,7 @@ export default function ResumePage() {
           />
         ))}
       </div>
-      <h2 className="text-4xl font-syne mt-28">EDUCATION</h2>
+      <h2 className="text-xl md:text-4xl font-syne mt-28">EDUCATION</h2>
       <Card
         date="Sep 2016 - Mar 2021"
         role="Software Engineer"
