@@ -3,7 +3,7 @@ import SocialMedia from "../SocialMedia";
 
 const Footer = () => {
   return (
-    <footer className=" bg-white h-40 flex max-md:flex-col p-6 lg:px-[148px] justify-between md:items-center mt-auto">
+    <footer className="bg-white max-md:h-28 h-40 flex max-md:flex-col p-6 lg:px-[148px] justify-between md:items-center mt-auto">
       <div className="flex md:flex-col items-center gap-2">
         <span>Telephone number</span>
         <span>+31 684 101 962</span>
