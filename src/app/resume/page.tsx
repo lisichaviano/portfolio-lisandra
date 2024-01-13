@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Card from "../../components/Card";
 import SkillsCard from "../../components/SkillsCard";
@@ -112,11 +113,35 @@ export default function ResumePage() {
 
   const languages = ["English", "Spanish"];
 
+  const onButtonClick = () => {
+    fetch("CV.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Lisandra-Pena-Software-Engineer-CV.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <div className="flex flex-col px-40 py-36 justify-center items-center bg-thistle">
       <div className="flex gap-3 items-center">
         <div className="bg-firebrick w-5 h-5 overflow-hidden" />
         <h1 className="font-syne text-4xl">RESUME</h1>
+      </div>
+      <div className="flex justify-between w-full items-center mb-8">
+        <p className="text-3xl font-syne">Experience</p>
+        <button
+          onClick={onButtonClick}
+          className="text-base font-questrial hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4"
+        >
+          DOWNLOAD CV
+        </button>
       </div>
       <div className="flex flex-col gap-12">
         {resume.map((job) => (
