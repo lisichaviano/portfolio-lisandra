@@ -37,7 +37,7 @@ export default function ResumePage() {
           React and Tailwind.
           <br />
           <br />
-          <span className="font-bold">SwissVolley:</span>I was the lead
+          <span className="font-bold">SwissVolley:</span> I was the lead
           developer on this project which consisted of developing all the
           components and the system design for later use in the creation of the
           SwissVolley web application. These components were documented in
@@ -129,7 +129,7 @@ export default function ResumePage() {
   };
 
   return (
-    <div className="flex flex-col px-40 py-36 justify-center items-center bg-thistle">
+    <div className="flex flex-col responsive-width justify-center items-center bg-thistle">
       <div className="flex gap-3 items-center">
         <div className="bg-firebrick w-5 h-5 overflow-hidden" />
         <h1 className="font-syne text-4xl">RESUME</h1>

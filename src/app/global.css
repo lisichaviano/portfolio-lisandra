@@ -15,6 +15,6 @@
 
 @layer components {
   .responsive-width {
-    @apply mx-6 sm:mx-8 md:mx-10 lg:mx-16 xl:mx-auto xl:w-xl-content 2xl:w-2xl-content;
+    @apply px-12 py-8 sm:px-32 sm:py-12 md:px-40 md:py-16 lg:px-60 lg:py-36 xl:px-80 2xl:px-[400px];
   }
 }
