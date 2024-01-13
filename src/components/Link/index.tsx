@@ -14,7 +14,7 @@ const LinkElement = ({
   ...props
 }: LinkProps) => {
   return (
-    <div className="">
+    <div className="focus:bg-transparent active:!bg-transparent">
       <Link
         href={href}
         {...props}
