@@ -5,11 +5,23 @@ type Project = {
   description: string | JSX.Element;
   images: Image[];
   link: string;
+  date?: string;
+  role?: string;
+  location?: string;
+  linkToWebsite?: string;
+  projectType?: string;
+  path: string;
 };
 
-const projects: Project[] = [
+export const projects: Project[] = [
   {
+    path: "la-venduta",
     title: "La Venduta",
+    date: "Sep 2023",
+    role: "Lead Frontend Developer",
+    location: "The Netherlands",
+    linkToWebsite: "https://lavenduta.com/",
+    projectType: "Webshop",
     description: (
       <>
         A collaborative project that consists in a web application to send
@@ -23,7 +35,7 @@ const projects: Project[] = [
         Technologies: React, Next and Tailwind
       </>
     ),
-    link: "/la-venduta",
+    link: "/portfolio/la-venduta",
     images: [
       {
         url: "/images/v6.png",
@@ -48,7 +60,13 @@ const projects: Project[] = [
     ],
   },
   {
+    path: "foryouandyourcustomers",
     title: "foryouandyourcustomers website",
+    date: "Nov 2022",
+    role: "Frontend Developer",
+    location: "The Netherlands",
+    linkToWebsite: "https://foryouandyourcustomers.com/",
+    projectType: "Company's Website",
     description: (
       <>
         A collaborative project that consists in a web application to send
@@ -62,7 +80,7 @@ const projects: Project[] = [
         Technologies: React, Next and Tailwind
       </>
     ),
-    link: "/foryouandyourcustomers",
+    link: "/portfolio/foryouandyourcustomers",
     images: [
       {
         url: "/images/f1.png",
@@ -83,7 +101,12 @@ const projects: Project[] = [
     ],
   },
   {
+    path: "swissvolley",
     title: "SwissVolley",
+    date: "Jul 2023",
+    role: "Lead Frontend Developer",
+    location: "The Netherlands",
+    projectType: "Component Library",
     description: (
       <>
         This project was about developing a component library from the figma
@@ -98,7 +121,7 @@ const projects: Project[] = [
         app business logic and context.
       </>
     ),
-    link: "/swissvolley",
+    link: "/portfolio/swissvolley",
     images: [
       {
         url: "/images/sss7.jpg",

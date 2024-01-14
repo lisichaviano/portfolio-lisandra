@@ -4,7 +4,7 @@ import Link from "../Link";
 export const headerLinks = [
   { href: "/", name: "ABOUT ME" },
   { href: "/resume", name: "RESUME" },
-  { href: "/", name: "PORTFOLIO" },
+  { href: "/portfolio", name: "PORTFOLIO" },
   { href: "/contact", name: "CONTACT" },
 ];
 
