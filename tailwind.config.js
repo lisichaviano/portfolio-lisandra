@@ -32,6 +32,9 @@ module.exports = {
         gray: "rgba(255, 255, 255, 0)",
         thistle: "#ffd1ea",
       },
+      boxShadow: {
+        xl: "0 0 5px rgba(0, 0, 0, 0.5)",
+      },
       screens: {
         // The values are "min-width", so they are the starting widths from which the style will activate
         sm: "600px",
