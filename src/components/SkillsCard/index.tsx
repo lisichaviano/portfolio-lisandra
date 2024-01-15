@@ -9,7 +9,7 @@ const SkillsCard = ({ skills, languages }: SkillsCardProps) => {
       <div className="flex flex-col gap-2">
         <p className="text-xl md:text-2xl font-syne">Proffessional skills</p>
 
-        <div className="flex max-md:flex-col flex-wrap gap-6 md:gap-y-10">
+        <div className="flex max-md:flex-col gap-y-6 flex-wrap md:gap-y-10">
           {skills.map((skill) => (
             <div className="flex gap-2 md:w-1/2 items-center">
               <div className="bg-firebrick w-2 h-2 md:w-4 md:h-4 overflow-hidden" />
