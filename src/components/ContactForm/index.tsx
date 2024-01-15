@@ -7,8 +7,8 @@ const ContactForm = () => {
       method="POST"
       className="flex flex-col gap-12 md:gap-20 bg-white shadow-lg p-20"
     >
-      <div className="flex justify-between gap-12 md:gap-20 flex-wrap">
-        <div className="flex flex-col gap-2 w-full md:w-1/2">
+      <div className="flex max-md:flex-col justify-between gap-12 md:gap-20">
+        <div className="flex flex-col gap-2 max-md:w-full w-1/2">
           <label htmlFor="name" className="text-md md:text-lg font-questrial">
             Name
           </label>
@@ -21,7 +21,7 @@ const ContactForm = () => {
             required
           />
         </div>
-        <div className="flex flex-col gap-2 w-full md:w-1/2">
+        <div className="flex flex-col gap-2 max-md:w-full w-1/2">
           <label
             htmlFor="lastname"
             className="textmd md:text-lg font-questrial"
