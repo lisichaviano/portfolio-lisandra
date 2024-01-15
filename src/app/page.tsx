@@ -1,5 +1,7 @@
 import React from "react";
 import SocialMedia from "../components/SocialMedia";
+import LinkElement from "../components/Link";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -48,18 +50,18 @@ export default function HomePage() {
             </span>
           </div>
           <div className="flex max-md:justify-center flex-wrap mt-10 gap-x-12 gap-y-4">
-            <a
+            <Link
               href="/portfolio"
               className="font-questrial no-underline border-solid hover:bg-white hover:text-firebrick hover:border-firebrick font-bold text-white bg-firebrick border-2 border-transparent hover:cursor-pointer rounded-full py-2 px-4"
             >
               PORTFOLIO
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact"
               className="font-questrial no-underline border-solid hover:bg-firebrick hover:text-white hover:border-transparent font-bold text-black bg-white border-2 border-black hover:cursor-pointer rounded-full py-2 px-4"
             >
               CONTACT ME
-            </a>
+            </Link>
           </div>
 
           <div className="flex flex-wrap my-10">
