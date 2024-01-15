@@ -38,23 +38,23 @@ export const projects: Project[] = [
     link: "/portfolio/la-venduta",
     images: [
       {
-        url: "images/v6.png",
+        url: "/images/v6.png",
         alt: "La Venduta 1",
       },
       {
-        url: "images/v1.png",
+        url: "/images/v1.png",
         alt: "La Venduta 2",
       },
       {
-        url: "images/v2.png",
+        url: "/images/v2.png",
         alt: "La Venduta 3",
       },
       {
-        url: "images/v3.png",
+        url: "/images/v3.png",
         alt: "La Venduta 4",
       },
       {
-        url: "images/v4.png",
+        url: "/images/v4.png",
         alt: "La Venduta 5",
       },
     ],
@@ -83,19 +83,19 @@ export const projects: Project[] = [
     link: "/portfolio/foryouandyourcustomers",
     images: [
       {
-        url: "images/f1.png",
+        url: "/images/f1.png",
         alt: "foryouandyourcustomers 1",
       },
       {
-        url: "images/f2.png",
+        url: "/images/f2.png",
         alt: "foryouandyourcustomers 2",
       },
       {
-        url: "images/f3.png",
+        url: "/images/f3.png",
         alt: "foryouandyourcustomers 3",
       },
       {
-        url: "images/f5.png",
+        url: "/images/f5.png",
         alt: "foryouandyourcustomers 4",
       },
     ],
@@ -124,19 +124,19 @@ export const projects: Project[] = [
     link: "/portfolio/swissvolley",
     images: [
       {
-        url: "images/sss7.jpg",
+        url: "/images/sss7.jpg",
         alt: "SwissVolley 1",
       },
       {
-        url: "images/s1.png",
+        url: "/images/s1.png",
         alt: "SwissVolley 2",
       },
       {
-        url: "images/s2.png",
+        url: "/images/s2.png",
         alt: "SwissVolley 3",
       },
       {
-        url: "images/s5.png",
+        url: "/images/s5.png",
         alt: "SwissVolley 4",
       },
     ],
