@@ -20,14 +20,14 @@ const PortfolioCard = ({
   linkToProject,
 }: PortfolioCardProps) => {
   return (
-    <div className="group flex flex-col w-[400px] shadow-md">
+    <div className="group flex flex-col w-[400px] shadow-md transition-transform duration-200 hover:scale-105">
       <Link key={linkToProject} href={linkToProject}>
         <div className="overflow-hidden relative w-[400px] h-[200px]">
           <Image
             src={image.url}
             alt={image.alt}
             fill={true}
-            className="transition-transform duration-300 group-hover:scale-125 object-contain"
+            className="object-contain"
           />
         </div>
         <div className="flex-1 bg-gray-50 p-4 pb-8">
