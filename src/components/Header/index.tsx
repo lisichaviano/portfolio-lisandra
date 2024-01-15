@@ -10,7 +10,7 @@ export const headerLinks = [
 
 export const Header = () => {
   return (
-    <header className="w-full h-[92px] z-20 bg-white">
+    <header className="w-full sticky top-0 h-[92px] z-20 bg-white border-b border-neutral-300 shadow-sm">
       <div className="flex items-center justify-between">
         <div className="h-[92px] flex md:whitespace-nowrap items-center pl-12 md:w-1/4">
           <Link

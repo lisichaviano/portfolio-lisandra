@@ -150,7 +150,7 @@ export default function PortfolioPage() {
         <div className="bg-firebrick w-3 h-3 md:w-5 md:h-5 overflow-hidden" />
         <p className="font-syne text-xl md:text-4xl">MY PORTFOLIO</p>
       </div>
-      <p className="text-lg text-center my-0 w-[560px]">
+      <p className="text-lg flex items-center justify-center text-center my-0 w-max-[560px]">
         Welcome to my portfolio. Here you will find a selection of my
         highlighted projects. Explore them to get to know more about what I do.
       </p>

@@ -33,7 +33,8 @@ module.exports = {
         thistle: "#ffd1ea",
       },
       boxShadow: {
-        xl: "0 0 5px rgba(0, 0, 0, 0.5)",
+        card: "0 0 5px rgba(0, 0, 0, 0.5)",
+        "sm-inverted": "0 -1px 2px 0 rgb(0 0 0 / 0.05)",
       },
       screens: {
         // The values are "min-width", so they are the starting widths from which the style will activate
