@@ -32,7 +32,6 @@ const PortfolioCard = ({
         </div>
         <div className="flex-1 bg-gray-50 p-4 pb-8">
           <div className="text-lg group-hover:text-firebrick">{title}</div>
-          {/* <div className="text-lg text-gray-700">{jobTitle}</div> */}
           <div className="mt-6 text-sm text-black line-clamp-3 text-ellipsis leading-5">
             {description}
           </div>
