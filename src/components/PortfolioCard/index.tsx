@@ -22,12 +22,11 @@ const PortfolioCard = ({
   return (
     <div className="group flex flex-col w-[400px] shadow-md transition-transform duration-200 hover:scale-105">
       <Link key={linkToProject} href={linkToProject}>
-        <div className="overflow-hidden relative w-[400px] h-[200px]">
-          <Image
+        <div className="overflow-hidden">
+          <img
             src={image.url}
             alt={image.alt}
-            fill={true}
-            className="object-contain"
+            className="object-contain w-full h-full"
           />
         </div>
         <div className="flex-1 bg-gray-50 p-4 pb-8">

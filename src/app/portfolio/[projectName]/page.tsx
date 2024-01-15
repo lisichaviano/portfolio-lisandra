@@ -3,6 +3,14 @@ import { PageProps } from "../../../types";
 import Link from "../../../components/Link";
 import { notFound } from "next/navigation";
 
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    // params: {
+    projectName: project.path,
+    // },
+  }));
+}
+
 const ProjectPage = ({ params }: PageProps) => {
   const { projectName } = params;
   const project = projects.find((p) => p.path === projectName);
