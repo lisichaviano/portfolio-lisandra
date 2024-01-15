@@ -5,7 +5,7 @@ const ContactForm = () => {
       accept-charset="UTF-8"
       encType="multipart/form-data"
       method="POST"
-      className="flex flex-col gap-12 md:gap-20 bg-white shadow-lg p-20"
+      className="flex flex-col gap-12 md:gap-20 bg-white shadow-lg p-10 md:p-20"
     >
       <div className="flex max-md:flex-col justify-between gap-12 md:gap-20">
         <div className="flex flex-col gap-2 max-md:w-full w-1/2">
