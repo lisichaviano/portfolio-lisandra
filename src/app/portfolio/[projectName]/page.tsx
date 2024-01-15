@@ -2,12 +2,12 @@ import { projects } from "../page";
 import { PageProps } from "../../../types";
 import Link from "../../../components/Link";
 import { notFound } from "next/navigation";
+import ChevronRightIcon from "../../../components/icons/ChevronRightIcon";
+import ChevronLeftIcon from "../../../components/icons/ChevronLeftIcon";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
-    // params: {
     projectName: project.path,
-    // },
   }));
 }
 
@@ -96,7 +96,7 @@ const ProjectPage = ({ params }: PageProps) => {
       </div>
       <div className="flex flex-wrap gap-16 mt-24 justify-center">
         {project?.images.map((image) => (
-          <div className="h-[250px] md:h-[400px] shadow-xl">
+          <div className="h-[250px] md:h-[400px] shadow-card">
             <img
               src={image.url}
               alt={image.alt}
@@ -107,21 +107,23 @@ const ProjectPage = ({ params }: PageProps) => {
       </div>
 
       {/* Next and previous button */}
-      <div className="flex justify-between mt-40">
+      <div className="flex justify-between mt-20 md:mt-40">
         <Link
-          additionalClassNAme="text-xl font-questrial"
+          additionalClassNAme="text-md md:text-xl font-questrial flex items-center"
           href={`/portfolio/${prevProject}`}
           active={!!prevProject}
         >
-          Previous project
+          <ChevronLeftIcon />
+          <span className="md:block hidden">Previous project</span>
         </Link>
 
         <Link
-          additionalClassNAme="text-xl font-questrial"
+          additionalClassNAme="text-md md:text-xl font-questrial flex items-center"
           href={`/portfolio/${nextProject}`}
           active={!!nextProject}
         >
-          Next project
+          <span className="md:block hidden">Next project</span>
+          <ChevronRightIcon />
         </Link>
       </div>
     </div>
