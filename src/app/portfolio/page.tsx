@@ -155,7 +155,7 @@ export default function PortfolioPage() {
         highlighted projects. Explore them to get to know more about what I do.
       </p>
 
-      <div className="flex items-center justify-around gap-y-10 flex-wrap mt-20">
+      <div className="flex items-center justify-around gap-x-6 gap-y-10 flex-wrap mt-20">
         {projects.map((project) => (
           <PortfolioCard
             key={project.title}
