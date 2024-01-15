@@ -15,7 +15,7 @@ export default function HomePage() {
                 <img
                   className="h-48 w-48 rounded-full"
                   alt=""
-                  src="/div-mgogm2@2x.png"
+                  src="div-mgogm2@2x.png"
                 />
               </div>
               <div className="mt-12 px-20 flex w-5 flex-wrap justify-center">
