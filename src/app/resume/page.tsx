@@ -48,7 +48,15 @@ export default function ResumePage() {
           <br />
           <span className="font-bold">Selgros24 PL:</span>
           As part of the colaboration with the Transgourmet development team, I
-          was in charge of the frontend of the Selgros24 PL{" "}
+          was in charge of the frontend of the Selgros24 PL website, which is an
+          e-commerce platform for customers to browse and purchase products.
+          Utilizing the "Good store" template from Frontend Commercetools, we
+          initiated adjustments to components and ensured accurate data
+          integration. Additionally, we employed The Studio for content
+          management, versioning schemas to enhance website content control.
+          <br />
+          The technologies used in this project were Next, Typescript,
+          Commercetools Frontend and Netlify for deployment and CI/CD.
         </>
       ),
     },

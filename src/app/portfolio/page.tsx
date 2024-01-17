@@ -32,7 +32,7 @@ export const projects: Project[] = [
         As a Lead Frontend Developer, I took care of the design system, user
         experience, usability and the cleanliness of the webshop.
         <br />
-        Technologies: React, Next and Tailwind
+        Technologies: React, Next and Tailwind.
       </>
     ),
     link: "/portfolio/la-venduta",
@@ -69,15 +69,16 @@ export const projects: Project[] = [
     projectType: "Company's Website",
     description: (
       <>
-        A collaborative project that consists in a web application to send
-        recharges and buy internet plans for Cuban users. The application
-        manages shipping, payment processes, accounts and the details and status
-        of each recharge. It has customer support and a widget for user reviews.
+        This project consists in the development of the foryouandyourcustomers
+        company's website . It is a content website that shows all the services
+        offered by the business, their employees, the locations of all its
+        offices, as well as its contacts, the events to which users can
+        subscribe to. It allows the post of articles written by people from the
+        company, vacancies, among others.
         <br />
-        As a Lead Frontend Developer, I took care of the design system, user
-        experience, usability and the cleanliness of the webshop.
-        <br />
-        Technologies: React, Next and Tailwind
+        The content of the website is managed by a CMS (DatoCMS), the site pages
+        were built through the Gatsby static page generator. Technologies such
+        as React and Tailwind were used.
       </>
     ),
     link: "/portfolio/foryouandyourcustomers",
