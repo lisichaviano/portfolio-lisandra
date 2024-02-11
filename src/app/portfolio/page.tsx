@@ -60,6 +60,50 @@ export const projects: Project[] = [
     ],
   },
   {
+    path: "beauty-salon",
+    title: "Lisandra Salon",
+    date: "January 2024",
+    role: "Lead Frontend Developer",
+    location: "The Netherlands",
+    linkToWebsite: "https://lisichaviano.dev/",
+    projectType: "Business website",
+    description: (
+      <>
+        A demo project to showcase a business website that would help businesses
+        to boost their presence and identity in the market. It has integrated
+        Fresha, a booking system for beauty salons, in which users can book
+        appointments, see the services offered, the prices, the location of the
+        salon, and the reviews of other customers. It is a responsive website
+        that adapts to all devices. It is also SEO friendly and is possible to
+        manage the content through a CMS.
+        <br />
+        As a Lead Frontend Developer, I took care of the integration and design
+        system, user experience, usability and the cleanliness of the website.
+        <br />
+        Technologies: CMS, Fresha.
+      </>
+    ),
+    link: "/portfolio/beauty-salon",
+    images: [
+      {
+        url: "/images/beauty.png",
+        alt: "Beauty Salon 1",
+      },
+      {
+        url: "/images/beauty2.png",
+        alt: "Beauty Salon 2",
+      },
+      {
+        url: "/images/beauty3.png",
+        alt: "Beauty Salon 3",
+      },
+      {
+        url: "/images/beauty4.png",
+        alt: "Beauty Salon 4",
+      },
+    ],
+  },
+  {
     path: "foryouandyourcustomers",
     title: "foryouandyourcustomers website",
     date: "Nov 2022",
