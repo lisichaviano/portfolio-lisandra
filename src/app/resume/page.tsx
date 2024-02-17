@@ -15,48 +15,55 @@ export default function ResumePage() {
           As a Front-end Developer, I have worked on several projects at
           foryouandyourcustomers like:
           <br />
-          <br /> <span className="font-bold"> JOGG:</span> I worked with a team
-          to maintain and implement new features for two popular clothing
-          e-commerce sites using React, Gatsby, MobX, and Prismic. Good design
-          and UX were critical for these fashion-based products, so we were
-          always looking for ways to enhance and increase retention. When it was
-          needed to improve their SEO, I was able to do so by adding structured
-          data for better indexing and creating more effective sitemaps for the
-          various regions and languages we support. I have also regularly
-          improved page load times through the use of pre-load techniques and
-          integrated with external APIs like TrustedShops.
+          <br />{" "}
+          <span className="font-bold">
+            {" "}
+            HEMA, Jeans Centre, and Garcia:
+          </span>{" "}
+          Collaborating closely with a team, I've been involved in maintaining
+          and implementing new features for three renowned and high-traffic
+          webshops. Our tech stack includes React, Gatsby, MobX, Commercetools,
+          and Prismic CMS. Given the paramount importance of design and UX,
+          particularly in the fashion industry, I've actively contributed to
+          design decisions aimed at enhancing user retention. Additionally, I've
+          played a key role in improving SEO performance by incorporating
+          structured data for better indexing and crafting efficient sitemaps
+          tailored to different regions and languages. Furthermore, I've
+          consistently optimized page load times through preload techniques and
+          seamlessly integrated external APIs such as TrustedShops.
           <br />
           <br />
-          <span className="font-bold">foryouandyourcustomers website:</span> I
-          was part of the development of the company's site with the objective
-          of boosting its accessibility and making visible the company's brand,
-          its people and offices location, available jobs, as well as showing
-          articles written by employers of the company, events to which users
-          can subscribe, etc. All the content of the website is managed by
-          DatoCMS and the pages were created using technologies such as Gatsby,
-          React and Tailwind.
+          <span className="font-bold">
+            foryouandyourcustomers website:
+          </span>{" "}
+          I've contributed to the development of the company's website, aimed at
+          promoting the brand, showcasing its people and office locations,
+          listing available job opportunities, and featuring articles written by
+          employees. Additionally, the website allows users to subscribe to
+          events and other relevant updates. All the content of the website is
+          managed by DatoCMS and the pages were created using technologies such
+          as Gatsby, React, and Tailwind CSS.
           <br />
           <br />
           <span className="font-bold">SwissVolley:</span> I was the lead
-          developer on this project which consisted of developing all the
-          components and the system design for later use in the creation of the
-          SwissVolley web application. These components were documented in
-          Storybook, which allows you to see and test the different states of a
-          component and add important information about them, such as: the
-          properties they receive and the behavior of the component in general.
+          developer on the creation of their components library and design
+          system, which was the base for the SwissVolley web app. The package
+          was documented using Storybook, which allows developers and other
+          stakeholders to test the component in a playground to demo its
+          behavior.
           <br />
           <br />
           <span className="font-bold">Selgros24 PL:</span>
-          As part of the colaboration with the Transgourmet development team, I
-          was in charge of the frontend of the Selgros24 PL website, which is an
-          e-commerce platform for customers to browse and purchase products.
-          Utilizing the "Good store" template from Frontend Commercetools, we
-          initiated adjustments to components and ensured accurate data
-          integration. Additionally, we employed The Studio for content
-          management, versioning schemas to enhance website content control.
+          As part of a collaboration with the Transgourmet development team, I
+          was in charge of the front-end development efforts for the Selgros24
+          PL commerce website. Leveraging the "Good store" template from
+          Frontend Commercetools, we've customized and adjusted components and
+          ensured smooth data integration. We've also utilized The Studio from
+          Commercetools for content management and versioning schemas to enhance
+          content control. Technologies utilized in this project include
+          Next.js, TypeScript, Commercetools Frontend, and Netlify.
           <br />
-          The technologies used in this project were Next, Typescript,
-          Commercetools Frontend and Netlify for deployment and CI/CD.
+          <br />
         </>
       ),
     },
