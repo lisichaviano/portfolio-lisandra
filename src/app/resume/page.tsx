@@ -15,13 +15,12 @@ export default function ResumePage() {
           As a Front-end Developer, I have worked on several projects at
           foryouandyourcustomers like:
           <br />
-          <br />{" "}
-          <span className="font-bold">
+          <br /> <span className="font-bold">
             {" "}
-            HEMA, Jeans Centre, and Garcia:
+            Jeans Centre and Garcia:
           </span>{" "}
           Collaborating closely with a team, I've been involved in maintaining
-          and implementing new features for three renowned and high-traffic
+          and implementing new features for two renowned and high-traffic
           webshops. Our tech stack includes React, Gatsby, MobX, Commercetools,
           and Prismic CMS. Given the paramount importance of design and UX,
           particularly in the fashion industry, I've actively contributed to
