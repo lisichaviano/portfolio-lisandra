@@ -44,7 +44,7 @@ export default function HomePage() {
             <span className="font-syne max-md:text-3xl text-6xl">HELLO</span>
           </div>
           <div className="flex flex-wrap mt-5">
-            <span className="font-syne max-md:text-xl text-2xl">
+            <span className="font-questrial max-md:text-xl text-2xl">
               I am a Software Developer specialising in front-end, and I care
               for creating efficient and clean solutions for customers.
             </span>
