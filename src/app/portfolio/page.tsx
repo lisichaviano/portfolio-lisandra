@@ -18,21 +18,20 @@ export const projects: Project[] = [
     path: "la-venduta",
     title: "La Venduta",
     date: "Sep 2023",
-    role: "Lead Frontend Developer",
+    role: "Co-founder and Fullstack Engineer",
     location: "The Netherlands",
     linkToWebsite: "https://lavenduta.com/",
     projectType: "Webshop",
     description: (
       <>
-        A collaborative project that consists in a web application to send
+        A collaborative project that consists in a web application to send phone
         recharges and buy internet plans for Cuban users. The application
-        manages shipping, payment processes, accounts and the details and status
-        of each recharge. It has customer support and a widget for user reviews.
-        <br />
-        As a Lead Frontend Developer, I took care of the design system, user
-        experience, usability and the cleanliness of the webshop.
-        <br />
-        Technologies: React, Next and Tailwind.
+        manages fulfillment, payment processes, accounts and the details and
+        status of each recharge. It has customer support and a widget for user
+        reviews and blog. As a Lead Fullstack Developer, I took care of the
+        design system and the integration of services such as chat support,
+        email marketing solution and the supabase based back-end. <br />
+        Technologies: React, Next.js, Supabase and Tailwind.
       </>
     ),
     link: "/portfolio/la-venduta",

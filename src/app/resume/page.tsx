@@ -74,15 +74,13 @@ export default function ResumePage() {
       description: (
         <>
           As a member of the development team, I was responsible for building
-          and improving our EHR web application called EHR-BodyLogicMD using
-          React Js. My tasks included creating new components, integrating with
-          the FHIR API and other backend services, fixing UI and UX issues,
-          contributing to the design system (BULMD), and participating in
-          discussions about new features. In addition, I also worked on backend
-          development tasks such as creating new services using .NET Core,
-          fixing issues and bugs in backend services, and helping with
-          maintenance tasks in the production database using AIDBOX and other
-          tools like JupyterLab
+          and improving our EHR (Electronic Health Record) application used by
+          multiple clinics in Florida, United States. Our Front-end relied on
+          React with Redux and Redux Saga. We also maintained a design system
+          based on Bulma. In addition, I also worked on back-end development
+          tasks such as creating new services with Java Spring Boot. We used a
+          microservices architecture for connecting our Front-end application
+          with a special database called FHIR.
         </>
       ),
     },
@@ -112,15 +110,17 @@ export default function ResumePage() {
     "React Js",
     "JavaScript",
     "Typescript",
+    "Redux",
     "Gatsby",
     "Next Js",
+    "Java",
+    "Spring Boot",
     "Tailwind CSS",
     "CMS (Content Management System)",
     "CSS, SASS",
     "Styled components",
-    "Redux",
     "MobX",
-    "Java",
+    "ELK",
     "Python",
     "GraphQL",
   ];
