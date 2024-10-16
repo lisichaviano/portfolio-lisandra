@@ -6,7 +6,52 @@ import SkillsCard from "../../components/SkillsCard";
 export default function ResumePage() {
   const resume = [
     {
-      date: "May 2022 - Present",
+      date: "August 2024 - Present",
+      role: "Software Engineer",
+      company: "T-Mobile Netherlands",
+      place: "The Hague, The Netherlands",
+      description: (
+        <>
+          Spearheaded the integration of our React Native component library into
+          multiple Next.js applications related to the T-Mobile and Simpel
+          webshops, to enable seamless development and reuse of UI components
+          across platforms, significantly improving code maintainability and
+          developer productivity.
+          <br />
+          <br />
+          Developed, optimized, and maintained the frontend of key platforms,
+          including the Login and Payment systems, ensuring smooth and secure
+          customer experiences.
+          <br />
+          <br />
+          Designed and implemented E2E testing frameworks that automated the
+          testing process for key application functionalities, ensuring thorough
+          validation of system behavior under real-world scenarios.
+          <br />
+          <br />
+          Integrated tools such as Jest to enhance test coverage and provide
+          continuous feedback on code quality and performance, achieving up to
+          80% coverage on critical components.
+          <br />
+          <br />
+          Employee App Maintenance: Took ownership of the ongoing maintenance
+          and improvement of the Employee App, which allows employees to access
+          exclusive discounts for themselves and their families.
+          Responsibilities included:
+          <br />
+          Bug fixing: Resolved issues to improve app performance and user
+          satisfaction.
+          <br />
+          Feature enhancement: Added new functionalities to keep the app
+          relevant and user-friendly.
+          <br />
+          UI/UX improvements: Updated designs for better usability, aligning
+          with T-Mobile’s branding guidelines.
+        </>
+      ),
+    },
+    {
+      date: "May 2022 - July 2024",
       role: "Frontend Engineer",
       company: "foryouandyourcustomers",
       place: "Amsterdam, The Netherlands",
